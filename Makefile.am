@@ -38,3 +38,7 @@ EXTRA_DIST += woe32dll/export.h
 # Windows support.
 
 EXTRA_DIST += INSTALL.windows build-aux/windres-options
+
+
+pkgconfigdir = $(libdir)/pkgconfig
+pkgconfig_DATA = libunistring.pc

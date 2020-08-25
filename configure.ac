@@ -156,4 +156,5 @@ AC_CONFIG_FILES([lib/exported.sh])
 AC_CONFIG_FILES([lib/unistring/version.h:lib/unistring/version.in.h])
 AC_CONFIG_FILES([lib/unistring/woe32dll.h:lib/unistring/woe32dll.in.h])
 AC_CONFIG_FILES([tests/Makefile])
+AC_CONFIG_FILES([libunistring.pc])
 AC_OUTPUT
